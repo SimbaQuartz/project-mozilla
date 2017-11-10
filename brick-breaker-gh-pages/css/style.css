@@ -1,0 +1,54 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+
+}
+
+#wrapper {
+    /* Sets the width of the wrapper to be 100% the width of the window */
+    width:100%;
+    margin: auto;
+    font-family: Geneva, Helvetica, Sans-Serif;
+}
+
+#splashWrapper {
+    height: 100%;
+    width:800px;
+    margin:auto;
+}
+
+#canvas {
+    /* border of the canvas follows the theme */
+    /*border: 5px solid white;*/
+    /*border-radius: 5px;*/
+    /*box-shadow: 0 0 5px 1px black, 0 0 2px 1px black inset;*/
+    /* initial background of the game until it's run */
+    box-sizing: border-box;
+    background-image: url("../images/gameStartBackground.png");
+    margin: 0 auto;
+    width: 300px;
+    height: 435px;
+    /* score text colour */
+    color: red;
+}
+
+.gameButton {
+    /* rounds off the button */
+    border-radius: 5px;
+    /* orange text on button */
+    color: rgb(228,113,58);
+    /* purple background on button */
+    background-color: rgb(108,84,146);
+    /* puts button in the middle of the canvas */
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+
+/* where the game rules are input */
+#main #information {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
